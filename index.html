@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Wendy Kuhn</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="public/javascripts/site.js"></script>
+  <link rel="stylesheet" href="public/stylesheets/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <header>
+    <a id="resume-btn" href="public/assets/resume.pdf" target="_blank">r&#233;sum&#233;</a>
+  </header>
+  <main>
+    <section id="intro" class="flexbox horz-center">
+      <img id="avatar" src="public/assets/images/wendykuhn.png" alt="photo of Wendy Kuhn">
+      <h3 id="name">Wendy Kuhn</h3>
+      <p>I'm a software engineer in Austin, Texas. Co-creator of the Nami framework.</p>
+      <h4 onclick="">
+        <img id="about-me-toggle" src="public/assets/icons/plus.png"></img>
+        about me
+      </h4>
+      <p id="about-me">I love a quiet hike on the greenbelt as much as I love listening to the heartbeat of the city. To me, Austin is that moment at dusk, on a patio, with a cold drink and good company. Town Lake trail is great for kicking up dust. And I never met a fish taco I didn’t like. I’m proud to live in this vibrant city. Let’s get coffee at your favorite spot.</p>
+    </section>
+    <section id="nami" class="flexbox horz-center">
+      <div id="nami-title-container" class="flexbox">
+        <img id="nami-logo" src="public/assets/images/nami_logo.png" alt="Nami logo" />
+        <h2>Nami Framework</h2>
+      </div>
+      <div id="nami-info-container" class="flexbox">
+        <div>
+          <img id="deploy-command-gif" src="https://i.imgur.com/00Yy8JA.gif" alt="A gif showing the Nami deploy command" />
+        </div>
+        <div class="flexbox horz-center">
+          <p>Nami is an open-source, serverless framework for consuming webhooks at scale using Amazon Web Services (AWS).</p>
+          <p>The Nami framework accommodates bursty webhook traffic using AWS Lambda Functions as a Service (FaaS), dynamically scaling compute resources to match the flow of incoming data. Nami uses an SQS queue as message broker to send data to a MongoDB data store deployed using Docker on an EC2 instance.</p>
+          <a id="nami-repo-btn" class="btn" target="_blank" href="https://nami-serverless.github.io/">READ THE NAMI CASE STUDY</a>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="flexbox horz-center">
+        <h2>Other projects</h2>
+        <ul class="flexbox vert-center">
+          <li>
+            <img src="public/assets/images/postit.png" alt="Screenshot of postit application" />
+            <h4>Postit</h4>
+            <p>A Reddit-like application built with Ruby on Rails and PostgreSQL. Allows users to authenticate, create posts, comment on posts, add categories, upvote or downvote posts, and edit profile information.</p>
+          </li>
+          <li>
+            <img src="public/assets/images/airlineApp.png" alt="Screenshot of airline routes viewer application" />
+            <h4>Airline Routes Viewer</h4>
+            <p>A React application that allows users to view airline routes and filter them by airline or airport. Bootstrapped with Create React App.</p>
+          </li>
+          <li>
+            <img src="public/assets/images/todos.png" alt="Screenshot of todos application" />
+            <h4>Task Management Application</h4>
+            <p>A responsive application for task management with Ruby and Sinatra backend and JavaScript(ES6), JQuery, and Handlebars.js frontend. Users perform CRUD operations with tasks.</p>
+          </li>
+        </ul>
+      </section>
+    <section id="contact" class="flexbox horz-center">
+      <h3>connect with me</h3>
+      <h4><a href="mailto:wendy@wendykuhn.io">wendy@wendykuhn.io</a></h4>
+      <ul class="flexbox vert-center">
+        <li>
+          <a href="public/assets/resume.pdf" target="_blank">
+            <img class="icon" src="public/assets/icons/resume.svg" alt="link to Wendy Kuhn resume">
+          </a>
+        </li>
+        <li>
+          <a href="https://medium.com/@wendyleebrooks" target="_blank">
+            <img class="icon" src="public/assets/icons/medium.svg" alt="link to Wendy Kuhn Medium page">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/w-kuhn" target="_blank">
+            <img class="icon" src="public/assets/icons/git_hub.svg" alt="link to Wendy Kuhn GitHub">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/wendy-b-kuhn/" target="_blank">
+            <img class="icon" src="public/assets/icons/linked_in.svg" alt="link to Wendy Kuhn LinkedIn">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
