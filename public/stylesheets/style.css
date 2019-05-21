@@ -226,8 +226,6 @@ footer {
   display: block;
   max-width: 200px;
   min-width: 125px;
-/*  max-width: 400px;
-  min-width: 300px;*/
   object-fit: contain;
   width: 25%;
 }
@@ -239,39 +237,40 @@ footer {
 
 /* ---------------------------------
 
-                nami
+               #mashr
 
 ------------------------------------ */
 
-#nami {
+#mashr {
   background-color: #ecf0f1;
 }
 
-#nami-title-container {
+#mashr-title-container {
   -ms-align-items: center;
   align-items: center;
   justify-content: center;
 }
 
-#nami-logo {
+#mashr-logo {
   display: inline-block;
-  margin-right: 15px;
-  width: 50px;
+  width: 100%;
+  max-width: 500px;
+  min-width: 200px;
 }
 
-#nami h2 {
+#mashr h2 {
   display: inline-block;
 }
 
-#nami-info-container {
+#mashr-info-container {
   margin-top: 75px;
 }
 
-#nami-info-container > div {
+#mashr-info-container > div {
   width: 50%;
 }
 
-#nami-info-container > div:first-of-type {
+#mashr-info-container > div:first-of-type {
   margin-right: 2.5%;
 }
 
@@ -284,16 +283,16 @@ footer {
   width: auto;
 }
 
-#nami-info-container > div:last-of-type {
+#mashr-info-container > div:last-of-type {
   margin-left: 2.5%;
 }
 
-#nami p:first-of-type {
+#mashr p:first-of-type {
   position: relative;
   top: -0.5rem;
 }
 
-#nami-repo-btn {
+#mashr-repo-btn {
   margin-top: 25px;
   width: 228px;
 }
@@ -374,22 +373,22 @@ footer {
     width: 50px;
   }
 
-  #nami-info-container {
+  #mashr-info-container {
     -ms-align-items: center;
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
   }
 
-  #nami-info-container > div:first-of-type {
+  #mashr-info-container > div:first-of-type {
     margin-right: 0;
   }
 
-  #nami-info-container > div:last-of-type {
+  #mashr-info-container > div:last-of-type {
     margin-left: 0;
   }
 
-  #nami-info-container > div {
+  #mashr-info-container > div {
     width: 90%;
   }
 
@@ -408,18 +407,18 @@ footer {
 
 
 @media(max-width: 690px) {
-  #nami-logo {
+  #mashr-logo {
     margin-bottom: 25px;
     width: 75px;
   }
 
-  #nami-title-container {
+  #mashr-title-container {
     -ms-align-items: center;
     align-items: center;
     flex-direction: column;
   }
 
-  #nami-logo {
+  #mashr-logo {
     margin-right: 0;
   }
 }
@@ -442,11 +441,11 @@ footer {
     padding: 75px 18%;
   }
 
-  #nami-info-container {
+  #mashr-info-container {
     margin-top: 25px;
   }
 
-  #nami-repo-btn {
+  #mashr-repo-btn {
     align-self: center;
   }
 
@@ -456,11 +455,11 @@ footer {
 }
 
 @media(max-width: 465px) {
-  #nami-info-container > div {
+  #mashr-info-container > div {
     width: 100%;
   }
 
-  #nami-logo {
+  #mashr-logo {
     width: 60px;
   }
 
@@ -491,7 +490,7 @@ footer {
     font-size: 1.2rem;
   }
 
-  #nami-repo-btn {
+  #mashr-repo-btn {
     width: 180px;
   }
 
