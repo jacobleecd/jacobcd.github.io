@@ -228,8 +228,8 @@ footer {
 
 #avatar {
   display: block;
-  max-width: 200px;
-  min-width: 125px;
+  max-width: 250px;
+  min-width: 200px;
   object-fit: contain;
   width: 25%;
 }
