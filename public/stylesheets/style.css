@@ -136,6 +136,10 @@ p {
   margin-bottom: 15px;
 }
 
+section#intro a {
+ color: #ef431b;
+}
+
 a {
   color: #000;
   text-decoration: none;
@@ -232,7 +236,7 @@ footer {
 
 #intro > p {
   text-align: center;
-  width: 430px;
+  width: 550px;
 }
 
 /* ---------------------------------
@@ -303,6 +307,30 @@ footer {
               contact
 
 ------------------------------------ */
+
+#resume-logo {
+  cursor: pointer;
+  width: 35px;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}
+
+#github-logo {
+  cursor: pointer;
+  width: 35px;
+  position: fixed;
+  top: 55px;
+  left: 5px;
+}
+
+#linkedin-logo {
+  cursor: pointer;
+  width: 35px;
+  position: fixed;
+  top: 105px;
+  left: 5px;
+}
 
 #contact {
   padding-top: 50px;
